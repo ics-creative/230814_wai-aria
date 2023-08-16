@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", function() {
         <path d="M2 2L21.799 21.799" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
         <path d="M2 21.7991L21.799 2.00008" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>`;
-      menuButton.setAttribute("aria-label", "メニューを閉じる");
-      menuButton.setAttribute("aria-haspopup", "false");
+      menuButton.setAttribute("aria-label", "メニューを閉じる");  // aria-label
+      menuButton.setAttribute("aria-haspopup", "false");  // aria-haspopup
     } else {
       menuButton.innerHTML = originalSvg;
-      menuButton.setAttribute("aria-label", "メニューを開く");
-      menuButton.setAttribute("aria-haspopup", "true");
+      menuButton.setAttribute("aria-label", "メニューを開く");  // aria-label
+      menuButton.setAttribute("aria-haspopup", "true");  // aria-haspopup
     }
   }
 
