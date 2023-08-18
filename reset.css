@@ -19,6 +19,13 @@ body {
   background-color: #bebebe;
 }
 
+/* 画面幅768px以下でのスタイル */
+@media(max-width: 768px) {
+  body {
+    padding: 50px 6vw;
+  }
+}
+
 a {
   text-decoration: none;
   cursor: pointer;

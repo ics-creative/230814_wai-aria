@@ -31,6 +31,14 @@
   cursor: pointer;
 }
 
+/* 画面幅768px以下でのスタイル */
+@media(max-width: 768px) {
+  .category-list-item > a {
+    padding: 0.4rem 0.8rem;
+    font-size: 14px;
+  }
+}
+
 .category-list-item > a::after {
   content: '';
   position: absolute;
