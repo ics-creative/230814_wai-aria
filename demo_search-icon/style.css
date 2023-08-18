@@ -1,6 +1,9 @@
 /* 検索アイコン */
+form {
+  display: flex;
+}
 .search-box {
-  margin-right: 3px;
+  margin-right: 8px;
 }
 .search-box > input {
   position: relative;
@@ -19,6 +22,7 @@
   display: inline-flex;
   place-items: center;
   gap: 4px;
+  min-width: 60px;
   min-height: 20px;
   padding: 4px 8px;
   color: #fff;
