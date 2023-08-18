@@ -35,6 +35,11 @@ button {
   cursor: pointer;
 }
 
+input {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 li {
   list-style: none;
 }

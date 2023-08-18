@@ -16,7 +16,9 @@
 
 .search-button {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
+  place-items: center;
+  gap: 4px;
   min-height: 20px;
   padding: 4px 8px;
   color: #fff;
@@ -38,4 +40,9 @@
   border-radius: 6px;
   background-color: #3C3C3D;
   opacity: 0.8;
+}
+
+.search-button > span {
+  display: grid;
+  place-items: center;
 }
